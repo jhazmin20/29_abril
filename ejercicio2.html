@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container bg-secondary">
+        <h1 class="text-center display-3 text-white">FORMULARIO 1</h1>
+        <form action="">
+            <div class="mb-3 bg-dark">
+                <label for="nombreconmpleto" class="text-white" class="form-label">Nombre Completo:</label>
+                <input type="text" class="form-control" id="nombreContacto" placeholder="Ejemplo: Juan Perez">
+            </div>
+            <div class="mb-3 bg-dark">
+                <label for="correelectronuico" class="text-white" class="form-label">Correo Electronico:</label>
+                <input type="text" class="form-control" id="correoContacto" placeholder="Ejemplo : juan@gmail">
+            </div>
+            <div class="mb-3 bg-dark">
+                <label for="telefono" class="text-white" class="form-label">Telefono:</label>
+                <input type="text" class="form-control" id="telefonoContacto" placeholder="Ejemplo: 123456789" required>
+            </div>
+            <div class="mb-3 bg-dark">
+                <label for="contraseña" class="text-white" class="form-label">Contraseña:</label>
+                <input type="text" class="form-control" id="contraseñaContacto" placeholder="Ejemplo: contraseña123">
+            </div>
+            <div class="mb-3 bg-dark">
+                <label for="confirmarContraseña" class="text-white" class="form-label">Confirmar Contraseña:</label>
+                <input type="text" class="form-control" id="confirmarContraseñaContacto" placeholder="Ejemplo: contraseña123">
+            </div>
+            <div class="mb-3 bg-dark">
+                <label for="presentacion" class="text-white">Presentacion:</label>
+                <textarea class="form-control" id="presentacion" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark" class="text-white">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
